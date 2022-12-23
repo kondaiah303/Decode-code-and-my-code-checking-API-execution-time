@@ -61,8 +61,7 @@ def configure_tester_response():
 
         print(timeit.timeit(test_api, number=1))
     else:
-        if num == 100:
-            tester_response(num)
+        tester_response(num)
 
 
 def main():
